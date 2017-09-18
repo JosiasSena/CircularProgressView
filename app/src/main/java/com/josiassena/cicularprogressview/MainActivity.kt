@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         val runnable = object : Runnable {
             override fun run() {
                 if (count <= 100) {
-                    handler.postDelayed(this, 50)
+                    handler.postDelayed(this, 10)
 
                     circularView.setPercentage(count)
 

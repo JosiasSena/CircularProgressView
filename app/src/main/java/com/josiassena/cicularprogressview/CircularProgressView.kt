@@ -51,7 +51,7 @@ class CircularProgressView(context: Context?, attrs: AttributeSet?) : View(conte
             val fillPercentage = (360 * (percentage / 100.0)).toFloat()
 
             // draw the arc that will represent the percentage filled up
-            it.drawArc(rectF, 0f, fillPercentage, false, paint.apply {
+            it.drawArc(rectF, 270f, fillPercentage, false, paint.apply {
                 color = Color.GREEN // filled percentage color
 
                 // how wide the stroke should be, typically less than or equal to the strokeWidth

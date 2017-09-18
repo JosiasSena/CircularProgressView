@@ -21,6 +21,7 @@ class CircularProgressView(context: Context?, attrs: AttributeSet?) : View(conte
         // how we want the arcs to be draw, we want to make sure the arc centers are not colored
         // so we use a STROKE instead.
         style = Paint.Style.STROKE
+        strokeCap = Paint.Cap.ROUND
     }
 
     // default percentage set to 0
